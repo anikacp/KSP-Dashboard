@@ -1,4 +1,5 @@
-# Karnataka Police Dashboard 👮🚨 : Created using Power BI
+# Karnataka Police Dashboard 👮🚨
+### Created using Power BI
 
 ![Frame](https://github.com/anikacp/KSP-Dashboard/assets/121751187/64c6f29b-d8f6-4eaa-947e-739fbc1a73b1)
 
