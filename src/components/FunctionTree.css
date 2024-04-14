@@ -1,0 +1,255 @@
+.frame19 {
+  width: 211.5px;
+  height: 24px;
+  position: relative;
+  display: none;
+}
+.frame-icon4 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.binary-operator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.home-page {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+}
+.input-socket,
+.output-socket {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.output-socket {
+  flex: 1;
+  gap: var(--gap-8xs-5);
+}
+.input-socket {
+  width: 150.6px;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.main-dashboard {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  color: var(--color-blueviolet);
+}
+.services-tasks {
+  width: 155.7px;
+  position: relative;
+}
+.reports,
+.services-tasks,
+.staff {
+  line-height: 24px;
+  display: inline-block;
+}
+.staff {
+  width: 45.4px;
+  position: relative;
+}
+.reports {
+  width: 72.7px;
+}
+.b,
+.feedbacks,
+.reports {
+  position: relative;
+}
+.feedbacks {
+  flex: 1;
+  line-height: 24px;
+}
+.b {
+  margin-top: -1px;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 10.4px;
+}
+.frame20 {
+  height: 18px;
+  border-radius: var(--br-9980xl);
+  background-color: var(--color-crimson-100);
+  flex-direction: row;
+  padding: 0 var(--padding-3xs) 0 var(--padding-2xs-4);
+  box-sizing: border-box;
+}
+.feedbacks-parent,
+.frame-wrapper18,
+.frame20 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper18 {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+  font-size: var(--font-size-sm);
+}
+.feedbacks-parent {
+  width: 132.3px;
+  flex-direction: row;
+}
+.main-dashboard-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.function-tree-inner,
+.input-socket-parent,
+.main-dashboard-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input-socket-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.function-tree-inner {
+  width: 174.1px;
+  flex-direction: row;
+  padding: 0 var(--padding-6xs) 0 var(--padding-6xs-6);
+  box-sizing: border-box;
+}
+.pending-alerts {
+  position: relative;
+  line-height: 28px;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 125.4px;
+}
+.crime-fir-at-hubbali {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.crime-fir-at-container {
+  width: 115.3px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 800;
+  display: inline-block;
+}
+.investigation-at-belgavi {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.investigation-at-belgavi-container,
+.view-all {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.investigation-at-belgavi-container {
+  width: 144px;
+  font-weight: 800;
+}
+.view-all {
+  font-size: var(--font-size-base);
+  font-family: var(--font-roboto);
+  color: var(--color-blueviolet);
+  text-align: left;
+  min-width: 64.8px;
+}
+.view-all-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.frame-icon5 {
+  align-self: stretch;
+  width: 25.5px;
+  position: relative;
+  max-height: 100%;
+  min-height: 32px;
+}
+.frame-button,
+.frame-wrapper19 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-7);
+}
+.frame-wrapper19 {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.crime-fir-at-hubbali-parent,
+.frame21,
+.function-tree {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.crime-fir-at-hubbali-parent {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+}
+.frame21,
+.function-tree {
+  border-radius: var(--br-5xs);
+  box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1),
+    0 0 0#000, 0 0 0#000;
+  overflow: hidden;
+}
+.frame21 {
+  align-self: stretch;
+  background-color: var(--color-silver);
+  padding: var(--padding-xs) var(--padding-8xs-6) var(--padding-5xs)
+    var(--padding-smi-4);
+  gap: var(--gap-smi);
+  z-index: 1;
+  color: var(--color-white);
+}
+.function-tree {
+  width: 207.3px;
+  background: linear-gradient(180deg, #a6ccdf, #154364 61.99%);
+  flex-shrink: 0;
+  padding: var(--padding-base) var(--padding-2xs-4) var(--padding-49xl);
+  box-sizing: border-box;
+  gap: var(--gap-35xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-blueviolet);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 925px) {
+  .function-tree {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .function-tree {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}

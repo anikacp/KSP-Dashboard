@@ -1,0 +1,86 @@
+.frame-icon7 {
+  height: 59px;
+  width: 56.7px;
+  position: relative;
+  border-radius: var(--br-9980xl);
+}
+.crime2 {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 52.4px;
+}
+.crime-rate-analytics {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  color: var(--color-dimgray);
+}
+.crime-parent {
+  flex-direction: column;
+}
+.crime-parent,
+.frame-parent39,
+.frame-wrapper23 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper23 {
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+}
+.frame-parent39 {
+  flex-direction: row;
+  gap: var(--gap-mid-2);
+}
+.view-details {
+  width: 88px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 88px;
+}
+.frame39,
+.law-order-supervision {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame39 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) var(--padding-20xl) var(--padding-4xs);
+  background-color: var(--color-forestgreen-100);
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  white-space: nowrap;
+}
+.frame39:hover {
+  background-color: var(--color-mediumseagreen);
+}
+.law-order-supervision {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1),
+    0 0 0#000, 0 0 0#000;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-6xl-7) var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 275px;
+  max-width: 306px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

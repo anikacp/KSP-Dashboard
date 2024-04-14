@@ -1,0 +1,198 @@
+.case-progress-tracking {
+  height: 59px;
+  width: 56.7px;
+  position: relative;
+  border-radius: var(--br-9980xl);
+}
+.law-order2 {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 106px;
+}
+.supervision-of-duties {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  color: var(--color-dimgray);
+}
+.law-crime-station-management,
+.law-crime-station-management-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.law-crime-station-management-wrapper {
+  padding: var(--padding-8xs) 0 0;
+}
+.case-progress-tracking-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid-2);
+}
+.view-details1 {
+  width: 88px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 88px;
+}
+.view-details-button {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-royalblue-200);
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-20xl) var(--padding-4xs);
+  white-space: nowrap;
+}
+.frame41,
+.law-order-supervision1,
+.view-details-button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame41 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  flex-direction: row;
+}
+.law-order-supervision1 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1),
+    0 0 0#000, 0 0 0#000;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-6xl-6) var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 275px;
+  max-width: 306px;
+}
+.tab-bar-icon {
+  width: 56.7px;
+  height: 59px;
+  position: relative;
+  border-radius: var(--br-9980xl);
+}
+.tab-bar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.station-management2 {
+  margin-bottom: -3px;
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.station-management-wrapper {
+  width: 126.3px;
+  height: 53px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.resource-allocation {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  color: var(--color-dimgray);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.frame-parent40,
+.frame-parent41 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent40 {
+  flex-direction: row;
+  gap: var(--gap-mid-2);
+}
+.view-details2 {
+  width: 88px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 88px;
+}
+.frame42,
+.law-order-supervision2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame42 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-blueviolet-100);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-20xl);
+  white-space: nowrap;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.law-order-supervision2 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1),
+    0 0 0#000, 0 0 0#000;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-8xl) var(--padding-6xl-7) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 275px;
+  max-width: 306px;
+}
+.frame-wrapper24,
+.frame40 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame40 {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-6xl-7);
+}
+.frame-wrapper24 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-15xl-2) 0 var(--padding-15xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

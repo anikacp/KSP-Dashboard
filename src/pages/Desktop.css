@@ -1,0 +1,287 @@
+.image-1-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.karnataka-state-police1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frame13,
+.karnataka-state-police-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.karnataka-state-police-container {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-base) 0 14.7px;
+  margin-top: -7.3px;
+}
+.frame13 {
+  height: 379px;
+  width: 256.2px;
+  border-radius: 0 var(--br-31xl) var(--br-31xl) 0;
+  background-color: var(--color-steelblue);
+  flex-direction: column;
+  padding: var(--padding-4xs) 22.9px var(--padding-mini) 23.3px;
+  box-sizing: border-box;
+  min-width: 256.2px;
+}
+.enter-your-station,
+.welcome-back {
+  position: relative;
+  display: inline-block;
+}
+.welcome-back {
+  margin: 0;
+  width: 182.1px;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.enter-your-station {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 24px;
+  flex: 1;
+  line-height: 24px;
+  color: var(--color-gray-100);
+  text-align: left;
+  min-width: 127px;
+  padding: 0;
+}
+.frame15 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 var(--padding-3xs) var(--padding-base);
+}
+.enter-your-username {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 24px;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 127px;
+  padding: 0;
+}
+.frame16 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 var(--padding-3xs) var(--padding-base);
+}
+.enter-your-password {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: left;
+}
+.frame17 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 var(--padding-3xs) var(--padding-base);
+  white-space: nowrap;
+}
+.enter-your-role {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 24px;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 127px;
+  padding: 0;
+}
+.frame14,
+.frame18 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame18 {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  flex-direction: row;
+  padding: var(--padding-5xs) 0 var(--padding-3xs) var(--padding-base);
+}
+.frame14 {
+  flex-direction: column;
+  padding: 0 0 35px 0.2px;
+  gap: var(--gap-4xl);
+}
+.forget-password {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-royalblue-200);
+  text-align: left;
+  white-space: nowrap;
+}
+.forget-password-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.login1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 42px;
+}
+.researcher {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) 22.1px var(--padding-5xs) var(--padding-4xl);
+  background-color: var(--color-royalblue-200);
+  width: 87.1px;
+  border-radius: var(--br-7xs);
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.researcher:hover {
+  background-color: #4d8aff;
+}
+.frame-form,
+.frame-parent28,
+.researcher,
+.welcome-back-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent28 {
+  flex-direction: row;
+  gap: 5px;
+}
+.frame-form,
+.welcome-back-parent {
+  flex-direction: column;
+}
+.frame-form {
+  margin: 0;
+  align-self: stretch;
+}
+.welcome-back-parent {
+  width: 229.2px;
+  gap: var(--gap-5xl);
+  min-width: 229.2px;
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.desktop,
+.frame12 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.frame12 {
+  width: 681px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.1),
+    0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 0 0#000, 0 0 0#000;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-20xl) 36.6px 38.3px;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.desktop {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-steelblue);
+  justify-content: center;
+  padding: 97px var(--padding-xl) 106.7px var(--padding-2xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 625px) {
+  .frame13,
+  .welcome-back-parent {
+    flex: 1;
+  }
+  .frame12 {
+    flex-wrap: wrap;
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .karnataka-state-police1,
+  .welcome-back {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .frame12 {
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}

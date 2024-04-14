@@ -1,0 +1,189 @@
+.frame {
+  height: 20px;
+  width: 196.6px;
+  position: relative;
+  display: none;
+}
+.karnataka-state-police {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.karnataka-state-police-wrapper {
+  width: 348.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-7-icon {
+  height: 46px;
+  width: 38px;
+  position: relative;
+  object-fit: cover;
+  margin-left: -90.9px;
+}
+.frame-container {
+  width: 348.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-icon {
+  width: 34px;
+  height: 40px;
+  position: relative;
+  border-radius: var(--br-9980xl);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.frame-icon1 {
+  width: 34px;
+  height: 40px;
+  position: relative;
+  border-radius: var(--br-9980xl);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-wrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.frame-icon2 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: var(--br-9980xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 32px;
+  debug_commit: f6aba90;
+}
+.shreya1 {
+  margin: 0;
+}
+.shreya {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.frame1,
+.shreya-wrapper {
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.shreya-wrapper {
+  height: 32px;
+  width: 165.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.frame1 {
+  width: 113.7px;
+  border-radius: var(--br-9980xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 1px 2px -1px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0#000, 0 0 0#000;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-5xs) 11px;
+  gap: var(--gap-4xs-1);
+}
+.frame-div,
+.frame-wrapper,
+.frame1 {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-div {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.frame-wrapper {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.frame-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.dental-landing-page,
+.frame-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-base);
+  max-width: calc(100% - 224px);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-roboto);
+}
+.dental-landing-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 22px 20.7px 475px 22.8px;
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 925px) {
+  .frame-parent {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .frame-group {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .karnataka-state-police {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}
