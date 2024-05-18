@@ -1,0 +1,133 @@
+.work-updates {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  color: #000;
+}
+
+.work-updates h2 {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.work-updates ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.work-updates .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.work-updates .task.done {
+  background-color: #e0ffe0;
+}
+
+.work-updates .task.pending {
+  background-color: #ffe0e0;
+}
+
+.work-updates .task div {
+  flex: 1;
+  padding: 0 10px;
+  color: #000;
+}
+
+.work-updates .status {
+  cursor: pointer;
+  font-weight: bold;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.work-updates .status:hover {
+  color: #0056b3;
+}
+
+.add-task {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.add-task h3 {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.add-task input {
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 120px); /* Adjust width to ensure it fits well */
+  max-width: 300px;
+}
+
+.add-task button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-task button:hover {
+  background-color: #0056b3;
+}
+
+/* Ensure the work-updates section within the function-tree is properly aligned and styled */
+.function-tree .work-updates {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin: 0;
+}
+
+.function-tree .work-updates h2 {
+  font-size: 1.2em;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.function-tree .work-updates .task {
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffe0e0;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.function-tree .work-updates .task div {
+  flex: 1;
+  padding: 0 5px;
+  color: #000;
+}
+
+.function-tree .work-updates .status {
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.function-tree .work-updates .status:hover {
+  color: #0056b3;
+}

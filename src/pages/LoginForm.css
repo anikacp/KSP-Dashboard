@@ -1,0 +1,98 @@
+/* src/components/LoginForm.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0066b2;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.login-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.login-logo img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 1.5em;
+}
+
+h3 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.2em;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0066b2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #005a9e;
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 10px;
+  color: #0066b2;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .login-form {
+    padding: 15px;
+  }
+
+  .login-logo img {
+    max-width: 80px;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  input, select {
+    padding: 10px;
+  }
+
+  button {
+    padding: 10px;
+  }
+}

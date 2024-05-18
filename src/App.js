@@ -8,7 +8,7 @@ import {
 import DentalLandingPage from "./pages/DentalLandingPage";
 import Frame from "./pages/Frame";
 import Desktop1 from "./pages/Desktop1";
-import Desktop from "./pages/Desktop";
+import LoginForm from "./pages/LoginForm";
 
 function App() {
   const action = useNavigationType();
@@ -63,7 +63,7 @@ function App() {
       <Route path="/" element={<DentalLandingPage />} />
       <Route path="/frame1" element={<Frame />} />
       <Route path="/desktop-1" element={<Desktop1 />} />
-      <Route path="/frame" element={<Desktop />} />
+      <Route path="/frame" element={<LoginForm />} />
     </Routes>
   );
 }
